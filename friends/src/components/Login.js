@@ -55,7 +55,7 @@ const Login = props => {
                         autoComplete="off"
                         required
                       />
-                      <label htmlFor="inputEmail">Username</label>
+                      <label htmlFor="inputEmail" style={{ fontWeight: 'bolder', paddingRight: '30px' }}>Username</label>
                     </div>
 
                     <div className="form-label-group">
@@ -69,7 +69,7 @@ const Login = props => {
                         autoComplete="off"
                         required
                       />
-                      <label htmlFor="inputPassword">Password</label>
+                      <label htmlFor="inputPassword" style={{ fontWeight: 'bolder', paddingRight: '30px' }}>Password</label>
                     </div>
 
                     <div className="custom-control custom-checkbox mb-3">
@@ -81,21 +81,17 @@ const Login = props => {
                       <label
                         className="custom-control-label"
                         htmlFor="customCheck1"
-                      >
+                      style={{ fontSize: '10px' }}>
                         Remember password
                       </label>
                     </div>
                     <button
                       className="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2"
-                      type="submit"
+                      type="submit" style={{ backgroundColor: 'purple', fontWeight: 'bolder', color: 'white' }}
                     >
                       Sign in
                     </button>
-                    <div className="text-center">
-                      <a className="small" href="#">
-                        Forgot password?
-                      </a>
-                    </div>
+                    
                   </form>
                 </div>
               </div>

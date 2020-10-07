@@ -145,10 +145,11 @@ ul {
 }
 
 .card {
-  background-color: rgba(232, 232, 232, 1);
-  box-shadow: 0.2rem 0.2rem 1rem 0.2rem rgba(0,0,0,0.5);
-  width: 10rem;
-  height: 14rem;
-  margin: 1rem;
+  background-color: rgb(230, 188, 250);
+  box-shadow: 0.2rem 0.2rem 1rem 0.2rem rgba(39, 38, 38, 0.5);
+  width: 12rem;
+  height: 10rem;
+  margin: 0.7rem;
+  padding: 1rem;
   border-radius: 0.8rem;
 }

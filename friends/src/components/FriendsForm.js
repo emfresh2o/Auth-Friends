@@ -26,7 +26,7 @@ const Friends = (props) => {
     return(
         <div>
         <form onSubmit={handleSubmit}>
-            <label htmlFor="name">Name</label>
+            <label htmlFor="name">Name </label>
             <input onChange={handleChanges}
                     type="text"
                     value={friend.name}
@@ -34,7 +34,7 @@ const Friends = (props) => {
                     name="name"
                     required>
             </input>
-            <label htmlFor="Age">Age</label>
+            <label htmlFor="Age"> Age </label>
             <input onChange={handleChanges}
                     type="text"
                     value={friend.age}
@@ -42,7 +42,7 @@ const Friends = (props) => {
                     name="age"
                     required>
             </input>
-            <label htmlFor="email">email</label>
+            <label htmlFor="email"> Email</label>
             <input onChange={handleChanges}
                     type="text"
                     value={friend.email}
@@ -50,7 +50,7 @@ const Friends = (props) => {
                     name="email"
                     required>
             </input>
-            <button>Submit</button>
+            <button style={{ backgroundColor: 'purple', fontWeight: 'bolder', color: 'white' }}>Submit</button>
         </form>
         </div>
     )
